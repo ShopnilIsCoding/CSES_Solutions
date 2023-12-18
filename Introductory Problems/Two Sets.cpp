@@ -8,7 +8,7 @@ int main() {
     ll n, sum = 0;
     cin >> n;
     ll x = n / 2, X = (n / 2) + 1;
-    ll h[x], H[X], result = (n * (n + 1)) / 2;
+    ll result = (n * (n + 1)) / 2;
     int a = 1, b = n;
     set<int> printedNumbers;
 
